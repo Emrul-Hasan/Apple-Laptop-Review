@@ -1,0 +1,15 @@
+.carusel__Items{
+        display: flex;
+        justify-content: center;
+}
+
+.carusel__Item{
+        width: 300px;
+        padding: 10px;
+}
+
+.carusel__Items img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+}

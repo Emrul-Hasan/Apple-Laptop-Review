@@ -1,0 +1,52 @@
+.home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+}
+
+.leftSide__home{
+        font-size: 25px;
+}
+
+.leftSide__home h2{
+        line-height: 20px;
+}
+
+span{
+        color: tomato;
+}
+
+.home__button {
+  font-size: 21px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #4b45f5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+
+.home__button:hover{
+        background: transparent;
+        color: #4b45f5;
+        border: 1px solid #4b45f5;
+}
+
+.homesection__review{
+        text-align: center;
+}
+
+@media only screen and (max-width:900px) {
+        .home{
+                flex-wrap: wrap;
+                text-align: center;
+        }
+.home img{
+        margin-top: 30px;
+}
+}
+

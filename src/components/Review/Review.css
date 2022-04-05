@@ -1,0 +1,17 @@
+.reviewsection {
+ display: flex;
+justify-content: center;
+align-items: center;
+max-width: 500px;
+margin: auto;
+min-height: 250px;
+border-bottom: 10px solid rgb(168, 167, 167);
+padding: 10px;
+}
+
+.reviewsection img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+}
